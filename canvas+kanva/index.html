@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Canvas</title>
+    <script src="https://unpkg.com/konva@8.3.11/konva.min.js"></script>
+    <script src="./node_modules/jquery/dist/jquery.js"></script>
+    <script src="./jquery-ui-1.13.2/jquery-ui.js"></script>
+    <script src="https://unpkg.com/konva@8/konva.min.js"></script>
+    <link rel="stylesheet" href="./bootstrap-4.3.1-dist/css/bootstrap.css">
+    <link rel="stylesheet" href="./jquery-ui-1.13.2/jquery-ui.css">
+    
+
+    <link rel="stylesheet" href="style/all.css">
+   
+</head>
+<body>
+    <section class="section container">
+        <div class="main">
+            <!-- ondragover="allowDrop(event)" ondrop="dropElement(event)" -->
+            <div class="canvas" id="container" >
+                <canvas id="canvas"></canvas>
+            </div>
+            <div class="figures">
+                Dragged zone
+                <!-- ondragstart="dragElement(event)" -->
+                <div class="square tool" draggable="true" id="el1" >
+                    <p>Task</p> 
+                </div>
+                <div class="circle tool" draggable="true" id="el2" >
+                    <p>Email</p>
+                </div>
+                <div class="triangle tool" draggable="true" id="el3" >
+                    <p>Note</p>
+                </div>
+                <div class="arrow tool" draggable="true" id="el4" >
+
+                </div>
+            </div>
+        </div>
+        <div class="canvas-object">
+
+        </div>
+    </section>
+
+    <script src="js/canva.js"></script>
+
+</body>
+</html>

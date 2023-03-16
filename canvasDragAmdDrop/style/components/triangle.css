@@ -1,0 +1,65 @@
+.triangle{
+    width: 0;
+	height: 0;
+	border-left: 50px solid transparent;
+	border-right: 50px solid transparent;
+	border-bottom: 100px solid rgb(255, 117, 117);
+    margin: 30px;
+    position: relative;
+    color: rgb(150, 141, 141);
+}
+
+.triangle p{
+    position: absolute;
+    left: -15px;
+    top: 50px;
+}
+
+.square{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(167, 209, 246);
+}
+
+.circle{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(188, 255, 197);
+    border-radius: 100%;
+}
+
+.circle, .square{
+    color: rgb(150, 141, 141);
+    display: flex;
+    align-items: center;
+    margin: 30px;
+    justify-content: center;
+}
+
+.arrow{
+    display: block;
+    width: 25px;
+    margin: 30px;
+    height: 3px;
+    background-color: #000;
+    /* border-top: 2px solid #000;
+    border-left: 2px solid #000; */
+    transform: rotate(135deg);
+}
+
+/* .arrow::after{
+    content: "";
+    display: block;
+    width: 2px;
+    height: 45px;
+    background-color: black;
+    transform: rotate(-45deg) translate(15px, 4px);
+    left: 0;
+    top: 0;
+  } */
+
+            
+  .canvas-object{
+    height: 200px;
+    width: 100%;
+  }

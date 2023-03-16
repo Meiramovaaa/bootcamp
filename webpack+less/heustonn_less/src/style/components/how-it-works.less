@@ -1,0 +1,78 @@
+@import "flex-bundle.less";
+
+.lift-anim {
+    animation-name: lift;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+.lift-anim-reverse {
+    animation-name: lift-reverse;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+.how-it-works {
+    #flex-bundle.c-c-c();
+    background-color: #ff4f5a;
+    width: 100%;
+    padding: 75px 0;
+    .items {
+        #flex-bundle.r-c-c();
+        gap: 20px;
+        width: 100%;
+        height: 500px;
+        div{
+            #flex-bundle.c-c-c();
+            padding: 35px 0 20px 0;
+            background-color: #fff;
+            width: 275px;
+            height: 275px;
+            border-radius: 5px;
+            &:nth-child(even){
+                .lift-anim();
+            }
+            &:nth-child(odd){
+                .lift-anim-reverse();
+            }
+        }
+    } 
+    h2 {
+        color: #fff;
+        &:after {
+            background-color: #fff;
+        }
+    }
+    .btn{
+        a {
+            color: #fff;
+        }
+        hr {
+            background-color: #fff;
+        }
+    } 
+}
+
+@keyframes lift{
+    0% {
+        margin-top: -90px;
+    }
+    50% {
+        margin-top: 100px;
+    }
+    100% {
+        margin-top: -90px;
+    }
+}
+
+@keyframes lift-reverse{
+    0% {
+        margin-top: 100px;
+    }
+    50% {
+        margin-top: -90px;
+    }
+    100% {
+        margin-top: 100px;
+    }
+}

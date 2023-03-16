@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style/all.css">
+</head>
+<body>
+
+
+    <header class="header">
+        Task Lists
+    </header>
+
+    <section class="container">
+        <div class="board-all">
+            <div class="board">
+                
+                <div draggable="true" class="dropzone">
+                    <h2  onclick="changeNameOfTask(event)">Task 1</h2>
+                    <input  name="" id="" type="hidden">
+                    <div class="item-list">
+                        
+                    </div>
+                    
+                    <div  onclick="addNewTask(event)" class="adding-task">
+                        + Add new Task
+                    </div>
+
+                    <div class="add-task-item">
+                        <input type="text" name="" id="">
+                    </div>
+                </div>
+                
+                
+            </div>
+            <div class="btn-add" onclick="addNewColumn()">
+                <button class="button">
+                    + Add new column
+                </button>
+            </div>
+    
+            <div class="add-new">
+                <input placeholder="Enter the name of column" id="new-task-name">
+                <h2 class="header-of-new-task"></h2>
+                <button onclick="addingNewColumn(event)">Add</button>
+            </div>
+        </div>
+        
+    </section>
+    
+    <script src="index.js"></script>
+</body>
+</html>

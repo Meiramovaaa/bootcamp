@@ -1,0 +1,316 @@
+@import "vendors/reset.css";
+@font-face {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/poppins/v20/pxiByp8kv8JHgFVrLDz8V1s.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/poppins/v20/pxiByp8kv8JHgFVrLGT9V1s.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/poppins/v20/pxiByp8kv8JHgFVrLCz7V1s.ttf) format('truetype');
+}
+body {
+  font-family: Roboto, sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+body .btn {
+  font-family: Poppins, sans-serif;
+  display: flex;
+}
+body .btn a {
+  color: #1d1d1d;
+  margin-right: 15px;
+  font-size: 18px;
+  width: fit-content;
+}
+body .btn hr {
+  width: 75px;
+  height: 1.2px;
+  border: none;
+  background-color: #464646;
+}
+body h2 {
+  text-transform: uppercase;
+  font-size: 1.75rem;
+  font-weight: 700;
+  color: #000;
+  position: relative;
+}
+body h2:after {
+  content: "";
+  position: absolute;
+  bottom: -7px;
+  left: 50%;
+  width: 50px;
+  height: 7px;
+  -webkit-transform: translateX(-50%);
+  transform: translateX(-50%);
+  background-color: #ff4f5a;
+  border-radius: 15px;
+}
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  box-sizing: border-box;
+  height: 56px;
+  padding: 0 25px;
+  background-color: #000;
+  color: #fff;
+  font-family: Poppins, sans-serif;
+}
+header span:first-child {
+  font-weight: 700;
+  font-size: 24px;
+}
+header div a {
+  padding: 10px 30px;
+  color: #fff;
+  text-align: center;
+  position: relative;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  cursor: pointer;
+}
+header div a:hover:after {
+  content: "";
+  position: absolute;
+  bottom: 7px;
+  left: 50%;
+  width: 17px;
+  height: 4px;
+  -webkit-transform: translateX(-50%);
+  transform: translateX(-50%);
+  background-color: #ff4f5a;
+  border-radius: 5px;
+}
+header span:last-child {
+  background-image: url(../../assets/icons/search-icon.png);
+  background-size: 22px;
+  background-repeat: no-repeat;
+  background-position-y: 7px;
+  width: 35px;
+  height: 35px;
+  padding: 0;
+  border: none;
+}
+.main {
+  padding: 45px 0;
+  width: 100%;
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.main .slider {
+  display: flex;
+  width: 1170px;
+}
+.main .slider img {
+  width: 555px;
+}
+.main .slider div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 15px;
+}
+.main .slider h1 {
+  width: 400px;
+  font-weight: 700;
+  font-size: 4rem;
+  color: #1a2e35;
+  margin-bottom: 0.5rem;
+  line-height: 1.2;
+}
+.main .slider h1 span {
+  color: #ff4f5a;
+}
+.main .slider p {
+  width: auto;
+}
+.main .slider-nav {
+  width: 1170px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 15px;
+  height: 50px;
+}
+.main .slider-nav .arrows {
+  display: flex;
+}
+.main .slider-nav .arrows div {
+  width: 50px;
+  height: 50px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.main .slider-nav .arrows div:last-child img {
+  transform: rotate(180deg);
+}
+.about {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  width: 1140px;
+  padding: 75px 0;
+}
+.about p {
+  padding-top: 45px;
+}
+.about p:last-of-type {
+  padding-bottom: 45px;
+}
+.services {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  width: 1140px;
+  padding-bottom: 75px;
+}
+.services h2 {
+  margin-bottom: 15px;
+}
+.services .items {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  gap: 30px;
+}
+.services .items div {
+  max-width: 25%;
+}
+.services .items div p {
+  margin-bottom: 1rem;
+}
+.services .items div h3 {
+  margin-bottom: 0.5rem;
+  line-height: 1.2;
+  font-size: 1rem;
+  font-weight: 700;
+}
+.services .items div:nth-child(2) {
+  text-align: right;
+  margin-right: 80px;
+}
+.services .items div:nth-child(3) {
+  text-align: left;
+}
+.services .items div img {
+  height: 200px;
+}
+.services .items div:last-of-type {
+  max-width: 100%;
+}
+.services .items div a {
+  color: #ff4f5a;
+}
+.services .items div hr {
+  background-color: #ff4f5a;
+}
+.lift-anim {
+  animation-name: lift;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+}
+.lift-anim-reverse {
+  animation-name: lift-reverse;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+}
+.how-it-works {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #ff4f5a;
+  width: 100%;
+  padding: 75px 0;
+}
+.how-it-works .items {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  width: 100%;
+  height: 500px;
+}
+.how-it-works .items div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 35px 0 20px 0;
+  background-color: #fff;
+  width: 275px;
+  height: 275px;
+  border-radius: 5px;
+}
+.how-it-works .items div:nth-child(even) {
+  animation-name: lift;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+}
+.how-it-works .items div:nth-child(odd) {
+  animation-name: lift-reverse;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+}
+.how-it-works h2 {
+  color: #fff;
+}
+.how-it-works h2:after {
+  background-color: #fff;
+}
+.how-it-works .btn a {
+  color: #fff;
+}
+.how-it-works .btn hr {
+  background-color: #fff;
+}
+@keyframes lift {
+  0% {
+    margin-top: -90px;
+  }
+  50% {
+    margin-top: 100px;
+  }
+  100% {
+    margin-top: -90px;
+  }
+}
+@keyframes lift-reverse {
+  0% {
+    margin-top: 100px;
+  }
+  50% {
+    margin-top: -90px;
+  }
+  100% {
+    margin-top: 100px;
+  }
+}

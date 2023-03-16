@@ -1,0 +1,50 @@
+.services {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  width: 1140px;
+  padding-bottom: 75px;
+}
+.services h2 {
+  margin-bottom: 15px;
+}
+.services .items {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  gap: 30px;
+}
+.services .items div {
+  max-width: 25%;
+}
+.services .items div p {
+  margin-bottom: 1rem;
+}
+.services .items div h3 {
+  margin-bottom: 0.5rem;
+  line-height: 1.2;
+  font-size: 1rem;
+  font-weight: 700;
+}
+.services .items div:nth-child(2) {
+  text-align: right;
+  margin-right: 80px;
+}
+.services .items div:nth-child(3) {
+  text-align: left;
+}
+.services .items div img {
+  height: 200px;
+}
+.services .items div:last-of-type {
+  max-width: 100%;
+}
+.services .items div a {
+  color: #ff4f5a;
+}
+.services .items div hr {
+  background-color: #ff4f5a;
+}

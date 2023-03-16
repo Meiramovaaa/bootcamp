@@ -1,0 +1,32 @@
+.content-inner{
+    display: flex;
+    justify-content: space-between;
+}
+.card-footer{
+    margin-top: 20px;
+}
+.card-footer.none{
+    display: none;
+}
+.add-btn{
+    padding: 6px 15px;
+    background-color: #ffffff3d;
+    width: 272px;
+    min-height: 40px;
+    display: flex;
+    align-items: center;
+    box-sizing: border-box;
+    max-height: 40px;
+}
+.add-btn a{
+    text-decoration: none;
+    color: #fff;
+}
+.add-btn:hover{
+    background-color: #ffffff52;
+    transition: .3s;
+}
+
+.hide{
+    display: none;
+}

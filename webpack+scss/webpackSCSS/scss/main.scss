@@ -1,0 +1,30 @@
+.main{
+    display: flex;
+    align-items: center;
+    font-family: "Handlee";
+    color: #fff;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-color: #17a2b8;
+    .main-info{
+        width: 50%;
+        h2{
+            margin: 20px 0;
+            font-size: 1.5rem;
+        }
+        h1{
+            font-size: 4.5rem;
+            line-height: 1.2;
+        }
+
+        .button button{
+            background-color: #00394f;
+            font-family: "Handlee";
+            font-weight: bold;
+            margin-top: 30px;
+            &:hover{
+                background-color: #001d29;
+            }
+        }
+    }
+}

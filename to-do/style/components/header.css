@@ -1,0 +1,18 @@
+.header{
+    background-color: #e1e1e1;
+    box-shadow: -1px 12px 27px 0px rgba(34, 60, 80, 0.2);
+    padding: 30px 5%;
+    color: #000;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.container{
+    width: 100vw;
+    height: 100vh;
+    padding: 0 5%;
+    background-image: url("../../img/trello.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}

@@ -1,0 +1,101 @@
+.class{
+    margin-top: 50px;
+    text-align: center;
+    h4{
+        color: #17a2b8;
+        font-size: 1rem;
+        position: relative;
+        &::after,  &::before{
+            content: "";
+            display: block;
+            position: absolute;
+            width: 40px;
+            height: 2px;
+            background-color:#17a2b8 ;
+            top: 5px;
+        }
+        &::after{
+            left: 40%;
+        }
+        &::before{
+            right: 40%;
+        }
+    }
+    h2{
+        font-size: 2.5rem;
+        font-family: "Handlee";
+        margin: 20px 0;
+    }
+
+    .class-info{
+        display: flex;
+        justify-content: space-between;
+        .class-item{
+            box-shadow: 0 .125rem .25rem rgba(0,0,0,.075);
+            background-color: #f8f9fa;
+            width: calc(33.33% - 40px);
+            &>img{
+                width: 100%;
+            }
+            h3{
+                padding-top: 30px;
+                margin-bottom: 30px;
+                color: #00394f;
+                font-family: "Handlee";
+                font-size: 1.5rem;
+            }
+            &>p{
+                line-height: 1.5;
+                color: #666;
+                font-weight: 600;
+                margin-bottom: 20px;
+            }
+            .schedule{
+                
+                border-top: 1px solid #e1e1e1;
+                display: flex;
+                
+                
+                justify-content: space-around;
+                .schedule-right, .schedule-left{
+                    width: 50%;
+                    
+                    
+                    p{
+                        display: block;
+                        padding: 10px 0;
+                        border-bottom: 1px solid #e1e1e1;
+                    }
+                    
+                }
+                .schedule-left{
+                        border-right: 1px solid #e1e1e1;
+                        // padding-right: 50px;
+                }
+                // .schedule-item{
+                //     display: flex;
+                //     // padding: 10px 0;
+                //     align-items: center;
+                //     width: 60%;
+                //     margin: 0 auto;
+                //     padding: 10px 0;
+                //     justify-content: space-between;
+                //     border-bottom: 1px solid #e1e1e1;
+                //     &div:first-child{
+                //         border-right: 1px solid #e1e1e1;
+                //     }
+                //     &>div{
+                //         display: flex;
+                //         align-items: center;
+                //         justify-content: center;
+                //         height: 100%;
+                //         width: 50%;
+                //         &:first-child{
+                //             border-right: 1px solid #e1e1e1;
+                //         }
+                //     }
+                // }
+            }
+        }
+    }
+}

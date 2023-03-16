@@ -1,0 +1,57 @@
+.main {
+  padding: 45px 0;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.main .slider {
+  display: flex;
+  width: 1170px;
+}
+.main .slider img {
+  width: 555px;
+}
+.main .slider div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 15px;
+}
+.main .slider h1 {
+  width: 400px;
+  font-weight: 700;
+  font-size: 4rem;
+  color: #1a2e35;
+  margin-bottom: 0.5rem;
+  line-height: 1.2;
+}
+.main .slider h1 span {
+  color: #ff4f5a;
+}
+.main .slider p {
+  width: auto;
+}
+.main .slider-nav {
+  width: 1170px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 15px;
+  height: 50px;
+}
+.main .slider-nav .arrows {
+  display: flex;
+}
+.main .slider-nav .arrows div {
+  width: 50px;
+  height: 50px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.main .slider-nav .arrows div:last-child img {
+  transform: rotate(180deg);
+}

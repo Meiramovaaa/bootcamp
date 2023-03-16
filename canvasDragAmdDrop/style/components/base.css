@@ -1,0 +1,22 @@
+.container{
+    background-color: #e1e1e1;
+}
+
+.main{
+    display: flex;
+}
+
+.canvas{
+    width: 70%;
+}
+
+.figures{
+    width: 30%;
+    border-left: 1px solid #000;
+}
+
+.canvas-object{
+    border-top: 1px solid #000;
+    width: 100%;
+    background-color: #cab7b7;
+}

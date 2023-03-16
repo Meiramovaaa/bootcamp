@@ -1,0 +1,41 @@
+@import "header.less";
+@import "illus.less";
+@import "read-more.less";
+@import "about-service.less";
+@import "booking.less";
+@import "work.less";
+
+@medred: #ff4f5a;
+@matteblack: #1a2e35;
+
+* {
+    font-family: Poppins,sans-serif;
+}
+
+img {
+    z-index: 10;
+}
+
+.section {
+    width: 100%;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px 13%;
+}
+
+.read-more-hr {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+
+    span {
+        width: 70px;
+        border-bottom: 1px solid #000;
+    }
+
+    a {
+        color: #000;
+    }
+}

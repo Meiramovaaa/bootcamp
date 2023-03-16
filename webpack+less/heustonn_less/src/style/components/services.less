@@ -1,0 +1,49 @@
+@import "flex-bundle.less";
+
+.services {
+    #flex-bundle.c-c-c();
+    text-align: center;
+    width: 1140px;
+    padding-bottom: 75px;
+
+    h2 {
+        margin-bottom: 15px;
+    }
+
+    .items {
+        #flex-bundle.r-c-sb();
+        width: 100%;
+        gap: 30px;
+        div{
+            max-width: 25%;
+            p {
+                margin-bottom: 1rem;
+            }
+            h3 {
+                margin-bottom: .5rem;
+                line-height: 1.2;
+                font-size: 1rem;
+                font-weight: 700;
+            }
+            &:nth-child(2){
+                text-align: right;
+                margin-right: 80px;
+            }
+            &:nth-child(3){
+                text-align: left;
+            }
+            img {
+                height: 200px;
+            }
+            &:last-of-type {
+                max-width: 100%;
+            }
+            a {
+                color: #ff4f5a;
+            }
+            hr {
+                background-color: #ff4f5a;
+            }
+        }
+    }
+}

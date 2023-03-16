@@ -1,0 +1,15 @@
+.about {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  width: 1140px;
+  padding: 75px 0;
+}
+.about p {
+  padding-top: 45px;
+}
+.about p:last-of-type {
+  padding-bottom: 45px;
+}

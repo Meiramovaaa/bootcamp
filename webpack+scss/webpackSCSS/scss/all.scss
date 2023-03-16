@@ -1,0 +1,26 @@
+@import "./reset.scss";
+.base{
+  padding: 0 5%;
+}
+
+.button button{
+  border: none;
+  background-color: #17a2b8;
+  color: #fff;
+  padding: 10px 30px;
+  border-radius: 30px;
+  font-size: 18px;
+  font-weight: 900;
+  &:hover{
+      background-color: #138496;
+  }
+}
+
+
+// @import ".all.scss";
+@import "./header.scss";
+@import "./main.scss";
+@import "./activity.scss";
+@import "./school.scss";
+@import "./class.scss";
+@import "./modal.scss";

@@ -1,0 +1,38 @@
+.activity{
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    
+    .activity-item{
+        width: calc(30% - 30px);
+        border-top: 1px solid #dee2e6;
+        background-color: #f8f9fa;
+        display: flex;
+        padding: 40px;
+        justify-content: space-between;
+        margin-bottom: 40px;
+        align-items: center;
+        box-shadow: 0 .125rem .25rem rgba(0,0,0,.075);
+        div{
+            &:first-child{
+                width: 40%;
+                margin-right: 40px;
+            }
+        }
+        
+        img{
+            width: 100%;
+        }
+        h2{
+            font-family: "Handlee";
+            font-size: 1.5rem;
+            color: #00394f;
+        }
+        p{
+            font-size: 1rem;
+            color: #666;
+            line-height: 1.5;
+        }
+    }
+}

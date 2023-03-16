@@ -1,0 +1,82 @@
+.lift-anim {
+  animation-name: lift;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+}
+.lift-anim-reverse {
+  animation-name: lift-reverse;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+}
+.how-it-works {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #ff4f5a;
+  width: 100%;
+  padding: 75px 0;
+}
+.how-it-works .items {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  width: 100%;
+  height: 500px;
+}
+.how-it-works .items div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 35px 0 20px 0;
+  background-color: #fff;
+  width: 275px;
+  height: 275px;
+  border-radius: 5px;
+}
+.how-it-works .items div:nth-child(even) {
+  animation-name: lift;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+}
+.how-it-works .items div:nth-child(odd) {
+  animation-name: lift-reverse;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+}
+.how-it-works h2 {
+  color: #fff;
+}
+.how-it-works h2:after {
+  background-color: #fff;
+}
+.how-it-works .btn a {
+  color: #fff;
+}
+.how-it-works .btn hr {
+  background-color: #fff;
+}
+@keyframes lift {
+  0% {
+    margin-top: -90px;
+  }
+  50% {
+    margin-top: 100px;
+  }
+  100% {
+    margin-top: -90px;
+  }
+}
+@keyframes lift-reverse {
+  0% {
+    margin-top: 100px;
+  }
+  50% {
+    margin-top: -90px;
+  }
+  100% {
+    margin-top: 100px;
+  }
+}

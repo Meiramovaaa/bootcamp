@@ -1,0 +1,48 @@
+{
+  "name": "johndoe",
+  "version": "1.0.0",
+  "description": "JohnDoe Free Bootstrap landing page for personal and commercial use. Designed with ♥️ and creativity by Devcrud.com",
+  "main": "",
+  "devDependencies": {
+    "css-loader": "^6.7.1",
+    "isotope": "^1.0.0-alpha.3",
+    "isotope-layout": "^3.0.6",
+    "jquery": "^3.6.0",
+    "jquery-bridget": "^3.0.1",
+    "node-sass": "^7.0.1",
+    "sass": "^1.54.0",
+    "sass-loader": "^13.0.2",
+    "style-loader": "^3.3.1",
+    "webpack": "^5.74.0",
+    "webpack-cli": "^4.10.0",
+    "webpack-remove-empty-scripts": "^0.8.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "webpack --config webpack.config.js",
+    "build": "webpack --mode production"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/plugin-proposal-object-rest-spread": "^7.18.9",
+    "@babel/preset-env": "^7.18.10",
+    "babel-loader": "^8.2.5",
+    "bootstrap": "^5.2.0",
+    "css-minimizer-webpack-plugin": "^4.0.0",
+    "expose-loader": "^4.0.0",
+    "fs": "^0.0.1-security",
+    "html-webpack-plugin": "^5.5.0",
+    "jQuery": "^1.7.4",
+    "jsdom": "^20.0.0",
+    "location": "^0.0.1",
+    "masonry": "^0.0.2",
+    "masonry-layout": "^4.2.2",
+    "mini-css-extract-plugin": "^2.6.1",
+    "navigator": "^1.0.1",
+    "path": "^0.12.7",
+    "popper.js": "^1.16.1",
+    "xmlhttprequest": "^1.8.0"
+  }
+}
